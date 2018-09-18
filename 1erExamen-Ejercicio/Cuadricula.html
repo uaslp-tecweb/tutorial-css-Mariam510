@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Cuadricula</title>
+    <link href="css/Cuadricula.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="encabezado">Cuadricula</div>
+        <div class="temas">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="Selectores.html">Selectores</a>
+                    </li>
+                    <li>
+                        <a href="ModeloCajas.html">Modelo de Cajas</a>
+                    </li>
+                    <li>
+                        <a href="Posicionamiento.html">Posicionamiento</a>
+                    </li>
+                    <li>
+                        <a href="Colores.html">Colores</a>
+                    </li>
+                    <li>
+                        <a href="Tipografia.html">Tipografia</a>
+                    </li>
+                    <li>
+                        <a href="Cuadricula.html">Cuadricula</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="Resumen">
+            <div>
+                <p>Para utilizar Grid CSS necesitaremos tener en cuenta una serie de conceptos que utilizaremos a
+                    partir de ahora y que definiremos a continuación:</p>
+                <img id="img1" src="https://lenguajecss.com/p/css/propiedades/grid-css-conceptos.png" width="500"
+                    height="400" alt="img1">
+                <ul>
+                    <li>
+                        Contenedor: Existe un elemento padre que es el contenedor que definirá la cuadrícula o rejilla.
+                    </li>
+                    <li>
+                        Ítem: Cada uno de los hijos que contiene la cuadrícula (elemento contenedor).
+                    </li>
+                    <li>
+                        Celda (grid cell): Cada uno de los cuadritos (unidad mínima) de la cuadrícula.
+                    </li>
+                    <li>
+                        Area (grid area): Región o conjunto de celdas de la cuadrícula.
+                    </li>
+                    <li>
+                        Banda (grid track): Banda horizontal o vertical de celdas de la cuadrícula.
+                    </li>
+                    <li>
+                        Línea (grid line): Separador horizontal o vertical de las celdas de la cuadrícula.
+                    </li>
+                </ul>
+                <h3>grid template</h3>
+                <p>En las propiedades grid-template-columns y grid-template-rows podemos indicar expresiones de
+                    repetición, indicando celdas que repiten un mismo patrón de celdas varias veces. La expresión a
+                    utilizar sería la siguiente: repeat([núm de veces], [valor o valores]). </p>
+                <h3>grid areas</h3>
+                <p>Mediante los grids CSS es posible indicar el nombre y posición concreta de cada área de una
+                    cuadrícula. Para ello utilizaremos la propiedad grid-template-areas, donde debemos especificar el
+                    orden de las áreas en la cuadrícula.</p>
+                <h3>grid con huecos</h3>
+                <p>Por defecto, la cuadrícula tiene todas sus celdas pegadas a sus celdas contiguas. Aunque sería
+                    posible darle un margin a las celdas dentro del contenedor, existe una forma más apropiada, que
+                    evita los problemas clásicos de los modelos de caja: los huecos (gutters).
+                    <br>Para especificar los huecos (espacio entre celdas) podemos utilizar las propiedades
+                    grid-column-gap y/o grid-row-gap.</p>
+            </div>
+        </div>
+
+        <div class="pie">
+            <a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+                <img src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!">
+            </a>
+            <a href="https://validator.w3.org/check?uri=referer" target="_blank">
+                <img src="https://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0!">
+            </a>
+            <span id="yo">Mariam Rodriguez Rodriguez</span>
+        </div>
+    </div>
+</body>
+
+</html>

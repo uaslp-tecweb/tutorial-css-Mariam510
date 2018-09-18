@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Posicionamiento</title>
+    <link href="css/Pos.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="encabezado">Posicionamiento</div>
+        <div class="temas">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="Selectores.html">Selectores</a>
+                    </li>
+                    <li>
+                        <a href="ModeloCajas.html">Modelo de Cajas</a>
+                    </li>
+                    <li>
+                        <a href="Posicionamiento.html">Posicionamiento</a>
+                    </li>
+                    <li>
+                        <a href="Colores.html">Colores</a>
+                    </li>
+                    <li>
+                        <a href="Tipografia.html">Tipografia</a>
+                    </li>
+                    <li>
+                        <a href="Cuadricula.html">Cuadricula</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="Resumen">
+            <div>
+                <p>Utilizando las propiedades que proporciona CSS para alterar la posición de las cajas es posible
+                    realizar efectos muy avanzados y diseñar estructuras de páginas que de otra forma no serían
+                    posibles.
+                    El estándar de CSS define cinco modelos diferentes para posicionar una caja:
+                </p>
+                <ul>
+                    <li>
+                        Posicionamiento normal o estático: se trata del posicionamiento que utilizan los
+                        navegadores si no se indica lo contrario.
+                    </li>
+                    <li>
+                        Posicionamiento relativo: variante del posicionamiento normal que consiste en posicionar
+                        una caja según el posicionamiento normal y después desplazarla respecto de su posición
+                        original.
+                    <li>
+                        Posicionamiento absoluto: la posición de una caja se establece de forma absoluta respecto
+                        de su elemento contenedor y el resto de elementos de la página ignoran la nueva posición
+                        del elemento.
+                    </li>
+                    <li>
+                        Posicionamiento fijo: variante del posicionamiento absoluto que convierte una caja en un
+                        elemento inamovible, de forma que su posición en la pantalla siempre es la misma
+                        independientemente del resto de elementos e independientemente de si el usuario sube o baja
+                        la página en la ventana del navegador.
+                    </li>
+                    <li>
+                        Posicionamiento flotante: se trata del modelo más especial de posicionamiento, ya que
+                        desplaza las cajas todo lo posible hacia la izquierda o hacia la derecha de la línea en la
+                        que se encuentran.
+                    </li>
+                </ul>
+
+                <p> El posicionamiento de una caja se establece mediante la propiedad "position: valorPropiedad"
+                El significado de cada uno de los posibles valores de la propiedad position es el siguiente:</p>
+                <ul>
+                    <li>
+                        static: corresponde al posicionamiento normal o estático. Si se utiliza este valor, se ignoran los
+                        valores de las propiedades top, right, bottom y left que se verán a continuación.
+                    </li>
+                    <li>
+                        relative: corresponde al posicionamiento relativo. El desplazamiento de la caja se controla con las
+                propiedades top, right, bottom y left.
+                    <li>
+                        absolute: corresponde al posicionamiento absoluto. El desplazamiento de la caja también se controla con
+                        las propiedades top, right, bottom y left, pero su interpretación es mucho más compleja, ya que el
+                        origen de coordenadas del desplazamiento depende del posicionamiento de su elemento contenedor.
+                    </li>
+                    <li>
+                        fixed: corresponde al posicionamiento fijo. El desplazamiento se establece de la misma forma que en el
+                        posicionamiento absoluto, pero en este caso el elemento permanece inamovible en la pantalla.
+                    </li>
+                </ul> 
+                <img id="img1" src="http://www.virtuosimedia.com/includes/Files/Uploaded/Images/Articles/Content/css-positioning.jpg" width="500" height="200" alt="img1">
+            </div>
+        </div>
+
+        <div class="pie">
+            <a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+                <img src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!">
+            </a>
+            <a href="https://validator.w3.org/check?uri=referer" target="_blank">
+                <img src="https://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0!">
+            </a>
+            <span id="yo">Mariam Rodriguez Rodriguez</span>
+        </div>
+    </div>
+</body>
+
+</html>

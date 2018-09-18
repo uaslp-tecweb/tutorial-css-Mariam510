@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Selectores</title>
+    <link href="css/Selectores.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="encabezado">Selectores</div>
+        <div class="temas">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="Selectores.html">Selectores</a>
+                    </li>
+                    <li>
+                        <a href="ModeloCajas.html">Modelo de Cajas</a>
+                    </li>
+                    <li>
+                        <a href="Posicionamiento.html">Posicionamiento</a>
+                    </li>
+                    <li>
+                        <a href="Colores.html">Colores</a>
+                    </li>
+                    <li>
+                        <a href="Tipografia.html">Tipografia</a>
+                    </li>
+                    <li>
+                        <a href="Cuadricula.html">Cuadricula</a>
+                    </li>
+                </ul>
+                <img id="img1" src="https://4.bp.blogspot.com/-q44vXD4AjWw/WHu391oS6CI/AAAAAAAADyE/JwmpWII141otjRzKvcUqkwki_FR9ZCA-gCLcB/s1600/selectoresCSS.jpg" width="290" height="200"
+                alt="img1">
+            </nav>
+            
+        </div>
+
+        <div class="Resumen">
+            <div>
+                <p>El selector es el nexo de unión entre la hoja de estilos y los documentos a los que se aplique dicha
+                    hoja.
+                </p>
+
+                <h3>Selector universal</h3>
+                <p>El selector universal se indica mediante un asterisco (*). A pesar de su sencillez, no se utiliza
+                    habitualmente, ya que es difícil que un mismo estilo se pueda aplicar a todos los elementos de una
+                    página.</p>
+
+                <h3>Selector de tipo o etiqueta</h3>
+                <p>Selecciona todos los elementos de la página cuya etiqueta HTML coincide con el valor del
+                    selector.
+                    El siguiente ejemplo selecciona todos los párrafos de la página:
+                    <br>p { ... }
+                    <br>Para utilizar este selector, solamente es necesario indicar el nombre de una etiqueta HTML (sin
+                    los caracteres) correspondiente a los elementos que se quieren seleccionar.
+                </p>
+
+                <h3>Selector descendente</h3>
+                <p>Selecciona los elementos que se encuentran dentro de otros elementos. Un elemento es descendiente de
+                    otro cuando se encuentra entre las etiquetas de apertura y de cierre del otro elemento.
+                    El selector del siguiente ejemplo selecciona todos los elementos "span" de la página que se
+                    encuentren dentro de un elemento "p":
+
+                    <br> p span { color: red; }
+
+                    <br>La única condición es que un elemento debe estar dentro de otro elemento, sin importar el nivel
+                    de profundidad en el que se encuentre.
+                </p>
+
+                <h3>Selector de clase</h3>
+                <p>Los selectores de clase son imprescindibles para diseñar páginas web complejas, ya que permiten
+                    disponer de una precisión total al seleccionar los elementos. Además, estos selectores permiten
+                    reutilizar los mismos estilos para varios elementos diferentes.
+
+                    <br> A continuación se muestra otro ejemplo de selectores de clase:
+
+                    <br>.aviso {
+                    <br> padding: 0.5em;
+                    <br> border: 1px solid #98be10;
+                    <br>background: #f6feda;
+                    <br>}
+                </p>
+
+                <h3>Selectores de ID</h3>
+                <p>El selector de ID permite seleccionar un elemento de la página a través del valor de su atributo id.
+                    Este tipo de selectores sólo seleccionan un elemento de la página porque el valor del atributo id
+                    no se puede repetir en dos elementos diferentes de una misma página.
+
+                    <br>La sintaxis de los selectores de ID es muy parecida a la de los selectores de clase, salvo que
+                    se utiliza el símbolo de la almohadilla (#) en vez del punto (.) como prefijo del nombre de la regla
+                    CSS:
+
+                    <br> #destacado { color: red; }
+                </p>
+
+            </div>
+
+
+        </div>
+
+        <div class="pie">
+            <a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+                <img src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!">
+            </a>
+            <a href="https://validator.w3.org/check?uri=referer" target="_blank">
+                <img src="https://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0!">
+            </a>
+            <span id="yo">Mariam Rodriguez Rodriguez</span>
+        </div>
+    </div>
+</body>
+
+</html>

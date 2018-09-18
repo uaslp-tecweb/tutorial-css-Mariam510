@@ -1,0 +1,64 @@
+.contenedor{
+    display: grid;
+    grid-gap: 15px; 
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: 50px auto 50px;
+}
+ 
+.contenedor > div{
+    padding: 30px;
+  font-size: 20px;
+  font-family:'Pacifico', sans-serif;
+  text-align: justify;
+}
+  
+.encabezado, .pie{
+    grid-column-start: 1;
+    grid-column-end: -1;
+    display: flex;
+    align-items: center;
+    background-color: lightblue;
+}
+
+
+.Resumen{
+    grid-column-start: 4;
+    grid-column-end: -1;
+    background-color: #2E86C1;
+}
+
+.temas{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: cadetblue;
+    
+}
+
+footer{
+    clear: both;
+}
+
+href{
+    font-size: 30px;
+    color: black;
+}
+
+#yo{  
+    font-size: 20px;
+    text-align: center;
+}
+
+#o{
+    text-align: center;
+}
+
+#img1{
+    padding: 15px;
+    margin-left: 200px; 
+}
+
+#tab{
+        padding: 15px;
+        margin-left: 200px; 
+        border: 1px;
+}
